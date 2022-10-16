@@ -8,14 +8,12 @@ package com.zerobase.festlms.main.controller;
 // 어디서 매핑? 누가 매핑?
 // 후보군? 클래스, 속성, 메소드
 // 메소드가 매핑
-import com.zerobase.festlms.admin.Service.BannerService;
-import com.zerobase.festlms.admin.dto.BannerDto;
-import com.zerobase.festlms.admin.repository.BannerRepository;
+import com.zerobase.festlms.admin.banner.service.BannerService;
+import com.zerobase.festlms.admin.banner.dto.BannerDto;
 import com.zerobase.festlms.components.MailComponents;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.servlet.http.HttpServletRequest;

@@ -1,4 +1,4 @@
-package com.zerobase.festlms.admin.model;
+package com.zerobase.festlms.admin.banner.model;
 
 import lombok.Data;
 

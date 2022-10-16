@@ -1,7 +1,7 @@
-package com.zerobase.festlms.admin.mapper;
+package com.zerobase.festlms.admin.banner.mapper;
 
-import com.zerobase.festlms.admin.dto.BannerDto;
-import com.zerobase.festlms.admin.model.BannerParam;
+import com.zerobase.festlms.admin.banner.dto.BannerDto;
+import com.zerobase.festlms.admin.banner.model.BannerParam;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;

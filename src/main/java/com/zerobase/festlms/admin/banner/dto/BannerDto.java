@@ -1,6 +1,6 @@
-package com.zerobase.festlms.admin.dto;
+package com.zerobase.festlms.admin.banner.dto;
 
-import com.zerobase.festlms.admin.entity.Banner;
+import com.zerobase.festlms.admin.banner.entity.Banner;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

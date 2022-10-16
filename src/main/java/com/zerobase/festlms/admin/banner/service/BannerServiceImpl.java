@@ -1,13 +1,12 @@
-package com.zerobase.festlms.admin.Service;
+package com.zerobase.festlms.admin.banner.service;
 
-import com.zerobase.festlms.admin.dto.BannerDto;
-import com.zerobase.festlms.admin.entity.Banner;
-import com.zerobase.festlms.admin.mapper.BannerMapper;
-import com.zerobase.festlms.admin.model.BannerInput;
-import com.zerobase.festlms.admin.model.BannerParam;
-import com.zerobase.festlms.admin.repository.BannerRepository;
+import com.zerobase.festlms.admin.banner.dto.BannerDto;
+import com.zerobase.festlms.admin.banner.entity.Banner;
+import com.zerobase.festlms.admin.banner.mapper.BannerMapper;
+import com.zerobase.festlms.admin.banner.model.BannerInput;
+import com.zerobase.festlms.admin.banner.model.BannerParam;
+import com.zerobase.festlms.admin.banner.repository.BannerRepository;
 import lombok.RequiredArgsConstructor;
-import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;
 
@@ -93,9 +92,5 @@ public class BannerServiceImpl implements BannerService{
         }
 
         return bannerList;
-    }
-
-    private Sort getSortBySortValueDesc() {
-        return Sort.by(Sort.Direction.DESC,"sortValue");
     }
 }

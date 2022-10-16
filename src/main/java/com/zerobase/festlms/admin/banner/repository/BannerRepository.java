@@ -1,6 +1,6 @@
-package com.zerobase.festlms.admin.repository;
+package com.zerobase.festlms.admin.banner.repository;
 
-import com.zerobase.festlms.admin.entity.Banner;
+import com.zerobase.festlms.admin.banner.entity.Banner;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

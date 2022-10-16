@@ -1,8 +1,8 @@
-package com.zerobase.festlms.admin.Service;
+package com.zerobase.festlms.admin.banner.service;
 
-import com.zerobase.festlms.admin.dto.BannerDto;
-import com.zerobase.festlms.admin.model.BannerInput;
-import com.zerobase.festlms.admin.model.BannerParam;
+import com.zerobase.festlms.admin.banner.dto.BannerDto;
+import com.zerobase.festlms.admin.banner.model.BannerInput;
+import com.zerobase.festlms.admin.banner.model.BannerParam;
 
 import java.util.List;
 

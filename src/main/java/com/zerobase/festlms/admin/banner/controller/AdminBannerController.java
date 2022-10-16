@@ -1,9 +1,9 @@
-package com.zerobase.festlms.admin.controller;
+package com.zerobase.festlms.admin.banner.controller;
 
-import com.zerobase.festlms.admin.Service.BannerService;
-import com.zerobase.festlms.admin.dto.BannerDto;
-import com.zerobase.festlms.admin.model.BannerInput;
-import com.zerobase.festlms.admin.model.BannerParam;
+import com.zerobase.festlms.admin.banner.service.BannerService;
+import com.zerobase.festlms.admin.banner.dto.BannerDto;
+import com.zerobase.festlms.admin.banner.model.BannerInput;
+import com.zerobase.festlms.admin.banner.model.BannerParam;
 import com.zerobase.festlms.course.controller.BaseController;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

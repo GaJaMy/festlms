@@ -1,4 +1,4 @@
-package com.zerobase.festlms.admin.entity;
+package com.zerobase.festlms.admin.banner.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
